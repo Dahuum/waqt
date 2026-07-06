@@ -1,0 +1,12 @@
+PLACEHOLDER — replace this file with a real short adhan sound clip.
+
+Requirements for iOS notification sounds:
+  • Format: CAF, AIFF, or WAV (Linear PCM, MA4, µ-law, or a-law)
+  • Duration: under 30 seconds (longer sounds fall back to the default)
+  • Keep the filename "adhan.caf" (referenced in NotificationManager.swift),
+    or update the reference there if you rename it.
+
+Convert an mp3/wav to caf with, e.g.:
+  afconvert input.wav adhan.caf -d ima4 -f caff
+
+Until replaced, iOS ignores this invalid file and uses the default sound.

@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DACABF000100000000000000 /* SalatWidgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAFE000100000000000000 /* SalatWidgetApp.swift */; };
+		DACABF000200000000000000 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAFE000200000000000000 /* ContentView.swift */; };
+		DACABF000300000000000000 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAFE000300000000000000 /* SettingsView.swift */; };
+		DACABF000400000000000000 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAFE000400000000000000 /* LocationManager.swift */; };
+		DACABF000500000000000000 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAFE000500000000000000 /* NotificationManager.swift */; };
+		DACABF000600000000000000 /* PrayerTimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAFE000800000000000000 /* PrayerTimeService.swift */; };
+		DACABF000700000000000000 /* SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAFE000900000000000000 /* SharedStore.swift */; };
+		DACABF000800000000000000 /* PrayerModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAFE000A00000000000000 /* PrayerModels.swift */; };
+		DACABF000900000000000000 /* PrayerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAFE000B00000000000000 /* PrayerSettings.swift */; };
+		DACABF000A00000000000000 /* WidgetTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAFE000C00000000000000 /* WidgetTheme.swift */; };
+		DACABF000B00000000000000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACAFE000D00000000000000 /* Assets.xcassets */; };
+		DACABF000C00000000000000 /* adhan.caf in Resources */ = {isa = PBXBuildFile; fileRef = DACAFE000E00000000000000 /* adhan.caf */; };
+		DACABF000D00000000000000 /* Adhan in Frameworks */ = {isa = PBXBuildFile; productRef = DACA5C000100000000000000 /* Adhan */; };
+		DACABF000E00000000000000 /* SalatWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DACAFE001000000000000000 /* SalatWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DACABF001100000000000000 /* SalatWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAFE001100000000000000 /* SalatWidgetBundle.swift */; };
+		DACABF001200000000000000 /* SalatWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAFE001200000000000000 /* SalatWidget.swift */; };
+		DACABF001300000000000000 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAFE001300000000000000 /* Provider.swift */; };
+		DACABF001400000000000000 /* MinimalCardWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAFE001400000000000000 /* MinimalCardWidgetView.swift */; };
+		DACABF001500000000000000 /* PrayerTimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAFE000800000000000000 /* PrayerTimeService.swift */; };
+		DACABF001600000000000000 /* SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAFE000900000000000000 /* SharedStore.swift */; };
+		DACABF001700000000000000 /* PrayerModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAFE000A00000000000000 /* PrayerModels.swift */; };
+		DACABF001800000000000000 /* PrayerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAFE000B00000000000000 /* PrayerSettings.swift */; };
+		DACABF001900000000000000 /* WidgetTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAFE000C00000000000000 /* WidgetTheme.swift */; };
+		DACABF001A00000000000000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACAFE000D00000000000000 /* Assets.xcassets */; };
+		DACABF001B00000000000000 /* Adhan in Frameworks */ = {isa = PBXBuildFile; productRef = DACA5C000200000000000000 /* Adhan */; };
+		DACABF001C00000000000000 /* LockScreenWidgetStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAFE001700000000000000 /* LockScreenWidgetStyle.swift */; };
+		DACABF001D00000000000000 /* LockScreenWidgetStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAFE001700000000000000 /* LockScreenWidgetStyle.swift */; };
+		DACABF001E00000000000000 /* LockScreenSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAFE001800000000000000 /* LockScreenSupport.swift */; };
+		DACABF001F00000000000000 /* PrayerWaveWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAFE001900000000000000 /* PrayerWaveWidgetView.swift */; };
+		DACABF002000000000000000 /* RingCountdownWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAFE001A00000000000000 /* RingCountdownWidgetView.swift */; };
+		DACABF002100000000000000 /* CountdownCardWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAFE001B00000000000000 /* CountdownCardWidgetView.swift */; };
+		DACABF002200000000000000 /* CurrentAndNextWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAFE001C00000000000000 /* CurrentAndNextWidgetView.swift */; };
+		DACABF002300000000000000 /* AllPrayersListWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAFE001D00000000000000 /* AllPrayersListWidgetView.swift */; };
+		DACABF002400000000000000 /* CurrentProgressWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAFE001E00000000000000 /* CurrentProgressWidgetView.swift */; };
+		DACABF002500000000000000 /* CompactGridWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAFE001F00000000000000 /* CompactGridWidgetView.swift */; };
+		DACABF002600000000000000 /* NextPrayerDetailWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACAFE002000000000000000 /* NextPrayerDetailWidgetView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DACA5D000100000000000000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DACA90000100000000000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DACA7A000200000000000000;
+			remoteInfo = SalatWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DACA30000400000000000000 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DACABF000E00000000000000 /* SalatWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DACAFE000100000000000000 /* SalatWidgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalatWidgetApp.swift; sourceTree = "<group>"; };
+		DACAFE000200000000000000 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DACAFE000300000000000000 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		DACAFE000400000000000000 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		DACAFE000500000000000000 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		DACAFE000600000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DACAFE000700000000000000 /* SalatApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SalatApp.entitlements; sourceTree = "<group>"; };
+		DACAFE000800000000000000 /* PrayerTimeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeService.swift; sourceTree = "<group>"; };
+		DACAFE000900000000000000 /* SharedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedStore.swift; sourceTree = "<group>"; };
+		DACAFE000A00000000000000 /* PrayerModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerModels.swift; sourceTree = "<group>"; };
+		DACAFE000B00000000000000 /* PrayerSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerSettings.swift; sourceTree = "<group>"; };
+		DACAFE000C00000000000000 /* WidgetTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetTheme.swift; sourceTree = "<group>"; };
+		DACAFE000D00000000000000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DACAFE000E00000000000000 /* adhan.caf */ = {isa = PBXFileReference; lastKnownFileType = text; path = adhan.caf; sourceTree = "<group>"; };
+		DACAFE000F00000000000000 /* SalatWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SalatWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DACAFE001000000000000000 /* SalatWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SalatWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DACAFE001100000000000000 /* SalatWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalatWidgetBundle.swift; sourceTree = "<group>"; };
+		DACAFE001200000000000000 /* SalatWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalatWidget.swift; sourceTree = "<group>"; };
+		DACAFE001300000000000000 /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		DACAFE001400000000000000 /* MinimalCardWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimalCardWidgetView.swift; sourceTree = "<group>"; };
+		DACAFE001500000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DACAFE001600000000000000 /* SalatWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SalatWidgetExtension.entitlements; sourceTree = "<group>"; };
+		DACAFE001700000000000000 /* LockScreenWidgetStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenWidgetStyle.swift; sourceTree = "<group>"; };
+		DACAFE001800000000000000 /* LockScreenSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenSupport.swift; sourceTree = "<group>"; };
+		DACAFE001900000000000000 /* PrayerWaveWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerWaveWidgetView.swift; sourceTree = "<group>"; };
+		DACAFE001A00000000000000 /* RingCountdownWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingCountdownWidgetView.swift; sourceTree = "<group>"; };
+		DACAFE001B00000000000000 /* CountdownCardWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownCardWidgetView.swift; sourceTree = "<group>"; };
+		DACAFE001C00000000000000 /* CurrentAndNextWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentAndNextWidgetView.swift; sourceTree = "<group>"; };
+		DACAFE001D00000000000000 /* AllPrayersListWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPrayersListWidgetView.swift; sourceTree = "<group>"; };
+		DACAFE001E00000000000000 /* CurrentProgressWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentProgressWidgetView.swift; sourceTree = "<group>"; };
+		DACAFE001F00000000000000 /* CompactGridWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactGridWidgetView.swift; sourceTree = "<group>"; };
+		DACAFE002000000000000000 /* NextPrayerDetailWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextPrayerDetailWidgetView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DACA30000200000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACABF000D00000000000000 /* Adhan in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACA30000600000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACABF001B00000000000000 /* Adhan in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DACA6A000100000000000000 = {
+			isa = PBXGroup;
+			children = (
+				DACA6A000200000000000000 /* App */,
+				DACA6A000300000000000000 /* Widgets */,
+				DACA6A000400000000000000 /* Shared */,
+				DACA6A000500000000000000 /* Resources */,
+				DACA6A000600000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DACA6A000200000000000000 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DACAFE000100000000000000 /* SalatWidgetApp.swift */,
+				DACAFE000200000000000000 /* ContentView.swift */,
+				DACAFE000300000000000000 /* SettingsView.swift */,
+				DACAFE000400000000000000 /* LocationManager.swift */,
+				DACAFE000500000000000000 /* NotificationManager.swift */,
+				DACAFE000600000000000000 /* Info.plist */,
+				DACAFE000700000000000000 /* SalatApp.entitlements */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DACA6A000300000000000000 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				DACAFE001100000000000000 /* SalatWidgetBundle.swift */,
+				DACAFE001200000000000000 /* SalatWidget.swift */,
+				DACAFE001300000000000000 /* Provider.swift */,
+				DACAFE001400000000000000 /* MinimalCardWidgetView.swift */,
+				DACA6A000800000000000000 /* LockScreen */,
+				DACAFE001500000000000000 /* Info.plist */,
+				DACAFE001600000000000000 /* SalatWidgetExtension.entitlements */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		DACA6A000400000000000000 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DACAFE000800000000000000 /* PrayerTimeService.swift */,
+				DACAFE000900000000000000 /* SharedStore.swift */,
+				DACAFE000A00000000000000 /* PrayerModels.swift */,
+				DACAFE000B00000000000000 /* PrayerSettings.swift */,
+				DACAFE000C00000000000000 /* WidgetTheme.swift */,
+				DACAFE001700000000000000 /* LockScreenWidgetStyle.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		DACA6A000500000000000000 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DACAFE000D00000000000000 /* Assets.xcassets */,
+				DACAFE000E00000000000000 /* adhan.caf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DACA6A000600000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DACAFE000F00000000000000 /* SalatWidget.app */,
+				DACAFE001000000000000000 /* SalatWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DACA6A000800000000000000 /* LockScreen */ = {
+			isa = PBXGroup;
+			children = (
+				DACAFE001800000000000000 /* LockScreenSupport.swift */,
+				DACAFE001900000000000000 /* PrayerWaveWidgetView.swift */,
+				DACAFE001A00000000000000 /* RingCountdownWidgetView.swift */,
+				DACAFE001B00000000000000 /* CountdownCardWidgetView.swift */,
+				DACAFE001C00000000000000 /* CurrentAndNextWidgetView.swift */,
+				DACAFE001D00000000000000 /* AllPrayersListWidgetView.swift */,
+				DACAFE001E00000000000000 /* CurrentProgressWidgetView.swift */,
+				DACAFE001F00000000000000 /* CompactGridWidgetView.swift */,
+				DACAFE002000000000000000 /* NextPrayerDetailWidgetView.swift */,
+			);
+			path = LockScreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DACA7A000100000000000000 /* SalatWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DACAC1000200000000000000 /* Build configuration list for PBXNativeTarget "SalatWidget" */;
+			buildPhases = (
+				DACA30000100000000000000 /* Sources */,
+				DACA30000200000000000000 /* Frameworks */,
+				DACA30000300000000000000 /* Resources */,
+				DACA30000400000000000000 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DACA5E000100000000000000 /* PBXTargetDependency */,
+			);
+			name = SalatWidget;
+			packageProductDependencies = (
+				DACA5C000100000000000000 /* Adhan */,
+			);
+			productName = SalatWidget;
+			productReference = DACAFE000F00000000000000 /* SalatWidget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DACA7A000200000000000000 /* SalatWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DACAC1000300000000000000 /* Build configuration list for PBXNativeTarget "SalatWidgetExtension" */;
+			buildPhases = (
+				DACA30000500000000000000 /* Sources */,
+				DACA30000600000000000000 /* Frameworks */,
+				DACA30000700000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SalatWidgetExtension;
+			packageProductDependencies = (
+				DACA5C000200000000000000 /* Adhan */,
+			);
+			productName = SalatWidgetExtension;
+			productReference = DACAFE001000000000000000 /* SalatWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DACA90000100000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					DACA7A000100000000000000 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					DACA7A000200000000000000 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = DACAC1000100000000000000 /* Build configuration list for PBXProject "SalatWidget" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DACA6A000100000000000000;
+			packageReferences = (
+				DACA5B000100000000000000 /* XCRemoteSwiftPackageReference "adhan-swift" */,
+			);
+			productRefGroup = DACA6A000600000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DACA7A000100000000000000 /* SalatWidget */,
+				DACA7A000200000000000000 /* SalatWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DACA30000300000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACABF000B00000000000000 /* Assets.xcassets in Resources */,
+				DACABF000C00000000000000 /* adhan.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACA30000700000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACABF001A00000000000000 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DACA30000100000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACABF000100000000000000 /* SalatWidgetApp.swift in Sources */,
+				DACABF000200000000000000 /* ContentView.swift in Sources */,
+				DACABF000300000000000000 /* SettingsView.swift in Sources */,
+				DACABF000400000000000000 /* LocationManager.swift in Sources */,
+				DACABF000500000000000000 /* NotificationManager.swift in Sources */,
+				DACABF000600000000000000 /* PrayerTimeService.swift in Sources */,
+				DACABF000700000000000000 /* SharedStore.swift in Sources */,
+				DACABF000800000000000000 /* PrayerModels.swift in Sources */,
+				DACABF000900000000000000 /* PrayerSettings.swift in Sources */,
+				DACABF000A00000000000000 /* WidgetTheme.swift in Sources */,
+				DACABF001C00000000000000 /* LockScreenWidgetStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACA30000500000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACABF001100000000000000 /* SalatWidgetBundle.swift in Sources */,
+				DACABF001200000000000000 /* SalatWidget.swift in Sources */,
+				DACABF001300000000000000 /* Provider.swift in Sources */,
+				DACABF001400000000000000 /* MinimalCardWidgetView.swift in Sources */,
+				DACABF001500000000000000 /* PrayerTimeService.swift in Sources */,
+				DACABF001600000000000000 /* SharedStore.swift in Sources */,
+				DACABF001700000000000000 /* PrayerModels.swift in Sources */,
+				DACABF001800000000000000 /* PrayerSettings.swift in Sources */,
+				DACABF001900000000000000 /* WidgetTheme.swift in Sources */,
+				DACABF001D00000000000000 /* LockScreenWidgetStyle.swift in Sources */,
+				DACABF001E00000000000000 /* LockScreenSupport.swift in Sources */,
+				DACABF001F00000000000000 /* PrayerWaveWidgetView.swift in Sources */,
+				DACABF002000000000000000 /* RingCountdownWidgetView.swift in Sources */,
+				DACABF002100000000000000 /* CountdownCardWidgetView.swift in Sources */,
+				DACABF002200000000000000 /* CurrentAndNextWidgetView.swift in Sources */,
+				DACABF002300000000000000 /* AllPrayersListWidgetView.swift in Sources */,
+				DACABF002400000000000000 /* CurrentProgressWidgetView.swift in Sources */,
+				DACABF002500000000000000 /* CompactGridWidgetView.swift in Sources */,
+				DACABF002600000000000000 /* NextPrayerDetailWidgetView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DACA5E000100000000000000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DACA7A000200000000000000 /* SalatWidgetExtension */;
+			targetProxy = DACA5D000100000000000000 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DACACF000100000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DACACF000200000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DACACF000300000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/SalatApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4AYT2S37NZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dahuum.salatwidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DACACF000400000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/SalatApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4AYT2S37NZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dahuum.salatwidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DACACF000500000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Widgets/SalatWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4AYT2S37NZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Widgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dahuum.salatwidget.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DACACF000600000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Widgets/SalatWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4AYT2S37NZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Widgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dahuum.salatwidget.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DACAC1000100000000000000 /* Build configuration list for PBXProject "SalatWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACACF000100000000000000 /* Debug */,
+				DACACF000200000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DACAC1000200000000000000 /* Build configuration list for PBXNativeTarget "SalatWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACACF000300000000000000 /* Debug */,
+				DACACF000400000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DACAC1000300000000000000 /* Build configuration list for PBXNativeTarget "SalatWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACACF000500000000000000 /* Debug */,
+				DACACF000600000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DACA5B000100000000000000 /* XCRemoteSwiftPackageReference "adhan-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/batoulapps/adhan-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DACA5C000100000000000000 /* Adhan */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DACA5B000100000000000000 /* XCRemoteSwiftPackageReference "adhan-swift" */;
+			productName = Adhan;
+		};
+		DACA5C000200000000000000 /* Adhan */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DACA5B000100000000000000 /* XCRemoteSwiftPackageReference "adhan-swift" */;
+			productName = Adhan;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DACA90000100000000000000 /* Project object */;
+}
